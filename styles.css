@@ -1,0 +1,93 @@
+.sample-fragment {
+  color: inherit;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+}
+
+.card-header {
+    padding: 0;
+}
+
+.cor-preta,
+.texto-botao{
+	color: #000000;
+}
+
+.texto-botao:hover{
+	text-decoration: none;
+}
+
+.head-item-accordion{
+	display: flex;
+	justify-content: space-between;
+}
+
+.titulo-principal{
+	border-bottom: 1px solid #E76D0B;
+	padding-bottom: 10px;
+}
+
+.separador{
+	border-bottom: 1px solid #dddd;
+}
+
+.caixa-contatos p{
+	margin: 0;
+}
+
+.sem-underline{
+	text-decoration: none;
+}
+
+.com-underline{
+	text-decoration: underline;
+}
+
+.cor-vermelha{
+	color: #ff0000;
+}
+
+.cor-azul{
+	color: #007bff;
+}
+
+.margin-bottom-padrao{
+	margin-bottom: 30px;
+}
+
+/*accordion*/
+.accordion:focus{
+  outline: none;
+}
+
+.accordion{
+  background-color: #F5F5F7;
+  cursor: pointer;
+  padding: 8px 15px;
+  width: 100%;
+  text-align: left;
+  border: 1px outset #EBEBEC;
+  border-bottom: 1px outset #EBEBEC;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.panel{
+  background-color: white;
+  display: none;
+  border-left: 1px solid #EBEBEC;
+  border-right: 1px solid #EBEBEC;
+  padding: 20px 15px;
+}
+
+.descricao-accordion{
+  font-weight: bold;
+}
+
+.caixa-accordion{
+  margin-bottom: 5px;
+}
